@@ -22,7 +22,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['react', 'react/jsx-runtime', '@typescript-eslint', 'prettier'],
   rules: {
     'no-var': 'error', // var 금지
     'no-multiple-empty-lines': 'warn', // 여러 줄 공백 금지
